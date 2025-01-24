@@ -1,21 +1,23 @@
-#%%
+# Importing external libraries or functions
+import numpy
 
+# Function definition
 def PolarToCartesian(rho,theta):
     """
     Parameters
     ----------
-    rho : rayon
+    rho : radius
         
-    theta : angle en dégrés
+    theta : angle in degrees
         
 
     Returns
     -------
-    Coordonnées cartésiennces d'un point défini  à partir de ses coordonnées polaires.
+    Cartesian coordinates of a point defined from its polar coordinates.
 
     """
-    import math
-    theta = theta * math.pi/180
-    x = rho * math.cos(theta)
-    y = rho * math.sin(theta)
+    
+    theta = theta * numpy.pi/180
+    x = rho * numpy.cos(theta)
+    y = rho * numpy.sin(theta)
     return x,y

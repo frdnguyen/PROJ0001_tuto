@@ -1,4 +1,6 @@
-course_code = 'PROJ0001-1' 
+#Contenu du fichier dummy_module.py
+
+course_code = 'PROJ0001-1'
 
 students_number = 300
 
