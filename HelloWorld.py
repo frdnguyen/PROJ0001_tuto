@@ -1,4 +1,4 @@
-print("Hello 2021 bachelor students !")
+print("Hello 2025 bachelor students !")
 print("Welcome to PROJ0001")
     
 
